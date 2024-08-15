@@ -1,18 +1,25 @@
 # text-summarization-llm-app
 License: (Apache 2.0), Copyright (C) 2024, Author Phil Chen (nethacker)
+The author of this repository is not liable for damages or losses arising from your use or inability to use the code.
 
 ## Description
 
 This repo is an example app showing text summarization leveraging <a href="https://mistral.ai/" target="_blank">Minstral Large model available from </a> <a href="https://aws.amazon.com/bedrock/" target="_blank">AWS Bedrock</a>. For the frontend UI <a href="https://streamlit.io/" target="_blank">Streamlit</a> is being used.
 
-## Prerequisites
+## Prerequisites for Local Setup
 
 * <a href="https://aws.amazon.com" target="_blank"> Amazon Web Services Account</a>
 * AWS CLI
 * AWS user with Bedrock Access (Specifically Mistral-Large) see: <a href="https://docs.aws.amazon.com/bedrock/latest/userguide/model-access.html" target="_blank">Manage access to Amazon Bedrock foundation models</a>
 * Python 3.8 or higher
-* Anaconda or Miniconda installed for Local Setup
-* Virtualenv for Server Setup
+* Anaconda or Miniconda installed 
+
+## Prerequisites for EC2 Ubuntu Linux Instance Setup
+* <a href="https://aws.amazon.com" target="_blank"> Amazon Web Services Account</a>
+* AWS user with Bedrock Access (Specifically Mistral-Large) see: <a href="https://docs.aws.amazon.com/bedrock/latest/userguide/model-access.html" target="_blank">Manage access to  Amazon Bedrock foundation models</a>
+* EC2 Instance Role with AmazonBedrockFullAccess Policy Attached (note you can make this more secure by making a custom policy)
+* EC2 Instance Ubuntu 20.04 or higher
+* Virtualenv
 
 **Required Python Packages**
 
