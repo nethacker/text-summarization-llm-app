@@ -1,3 +1,2 @@
-awscli
 streamlit
 boto3
