@@ -33,12 +33,15 @@ As with most AWS services you will incur costs for usage.
 
 ```
 conda create -n "text-summarization-llm-app" python=3.11.0
+
 git clone git@github.com:VSKIP/text-summarization-llm-app.git
+
 cd text-summarization-llm-app
+
 pip install -r requirements.txt
 ```
 
-## Run 
+## Run Local Setup
 
 To run text summarization leveraging AWS Bedrock (Mistral-Large)
 
@@ -48,7 +51,8 @@ streamlit run text-summarization-llm-app.py
 
 You can reach the app at `http://localhost:8501/`
 
-## Ubuntu Linux EC2 Instance Setup
+## EC2 Ubuntu Linux Instance Setup Steps
+(assumes you have a ubuntu user with /home/ubuntu)
 
 ### Install some dependencies
 ```
@@ -67,13 +71,13 @@ sudo apt -y install virtualenvwrapper
 
 ### Clone the GIT Repository
 ```
+cd /home/ubuntu
+
 git clone git@github.com:nethacker/text-summarization-llm-app.git
 ```
 
 ### Setup the Python Environment
 ```
-cd /home/ubuntu
-
 virtualenv text-summarization-llm-app_env
 
 source text-summarization-llm-app_env/bin/activate
