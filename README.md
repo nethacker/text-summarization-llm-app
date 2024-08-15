@@ -9,8 +9,8 @@ This repo is an example app showing text summarization leveraging <a href="https
 ## Prerequisites for Local Setup
 
 * <a href="https://aws.amazon.com" target="_blank"> Amazon Web Services Account</a>
-* AWS CLI
-* AWS user with Bedrock Access (Specifically Mistral-Large) see: <a href="https://docs.aws.amazon.com/bedrock/latest/userguide/model-access.html" target="_blank">Manage access to Amazon Bedrock foundation models</a>
+* AWS CLI <a href="https://docs.aws.amazon.com/cli/latest/userguide/getting-started-quickstart.html" target="_blank">installed</a>
+* AWS CLI user with Bedrock Access (Specifically Mistral-Large) see: <a href="https://docs.aws.amazon.com/bedrock/latest/userguide/model-access.html" target="_blank">Manage access to Amazon Bedrock foundation models</a>
 * Python 3.8 or higher
 * Anaconda or Miniconda installed 
 
