@@ -1,6 +1,6 @@
 # Text Summarization LLM APP
 * **License: (Apache 2.0), Copyright (C) 2024, Author Phil Chen (nethacker)**
-  * The author of this repository is not liable for damages or losses arising from your use or inability to use the code.
+  * This is a example application the author of this repository is not liable for damages or losses arising from your use or inability to use the code.
 
 ## Description
 
@@ -41,7 +41,7 @@ As with most AWS services you will incur costs for usage.
 ```
 conda create -n "text-summarization-llm-app" python=3.11.0
 
-git clone git@github.com:VSKIP/text-summarization-llm-app.git
+git clone git@github.com:nethacker/text-summarization-llm-app.git
 
 cd text-summarization-llm-app
 
