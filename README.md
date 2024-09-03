@@ -108,7 +108,7 @@ sudo systemctl enable text-summarization-llm-app.service
 
 ### Install NGINX to help scale and handle connections (Port 80)
 ```
-sudo vim /etc/nginx/sites-available/nginx_text-summarization-llm-app.conf
+sudo cp nginx/nginx_text-summarization-llm-app.conf /etc/nginx/sites-available/nginx_text-summarization-llm-app.conf
 
 sudo rm /etc/nginx/sites-enabled/default
 
