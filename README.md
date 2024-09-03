@@ -35,6 +35,7 @@ As with most AWS services you will incur costs for usage.
 
 * Pricing:
   * https://aws.amazon.com/bedrock/pricing/
+  * https://aws.amazon.com/ec2/pricing/on-demand/
 
 ## Local Setup
 
@@ -80,7 +81,7 @@ sudo apt -y install virtualenvwrapper
 ```
 cd /home/ubuntu
 
-git clone git@github.com:nethacker/text-summarization-llm-app.git
+git clone https://github.com/nethacker/text-summarization-llm-app.git
 ```
 
 ### Setup the Python Environment
@@ -116,3 +117,6 @@ sudo ln -s /etc/nginx/sites-available/nginx_text-summarization-llm-app.conf /etc
 
 sudo systemctl restart nginx
 ```
+
+You can reach the app at `http://{yourhost}`.
+
