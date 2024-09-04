@@ -39,7 +39,7 @@ As with most AWS services you will incur costs for usage.
   * https://aws.amazon.com/bedrock/pricing/
   * https://aws.amazon.com/ec2/pricing/on-demand/
 
-## Local Setup
+## macOS Laptop Local Setup
 
 ```
 conda create -n "text-summarization-llm-app" python=3.11.0
@@ -51,7 +51,7 @@ cd text-summarization-llm-app
 pip install -r requirements.txt
 ```
 
-## Run Local Setup
+## Run macOS Laptop Local Setup
 
 To run text summarization leveraging AWS Bedrock (Mistral-Large)
 
