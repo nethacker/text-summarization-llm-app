@@ -13,6 +13,7 @@ This repo is an example app showing text summarization leveraging <a href="https
 * AWS CLI user with Bedrock Access (Specifically Mistral-Large) see: <a href="https://docs.aws.amazon.com/bedrock/latest/userguide/model-access.html" target="_blank">Manage access to Amazon Bedrock foundation models</a>
 * Python 3.8 or higher
 * Anaconda or Miniconda installed 
+* AWS Default Region is set to us-east-1 you can change the region in the `pdf-query-rag-llm-app.py` file under `region_name='us-east-1'`
 
 ## Prerequisites for EC2 Ubuntu Linux Instance Setup
 * <a href="https://aws.amazon.com" target="_blank"> Amazon Web Services Account</a>
@@ -20,6 +21,7 @@ This repo is an example app showing text summarization leveraging <a href="https
 * EC2 Instance Role with AmazonBedrockFullAccess Policy Attached (note you can make this more secure by making a custom policy)
 * EC2 Instance Ubuntu 20.04 or higher
 * Virtualenv
+* AWS Default Region is set to us-east-1 you can change the region in the `pdf-query-rag-llm-app.py` file under `region_name='us-east-1'`
 
 **Required Python Packages**
 
@@ -37,7 +39,7 @@ As with most AWS services you will incur costs for usage.
   * https://aws.amazon.com/bedrock/pricing/
   * https://aws.amazon.com/ec2/pricing/on-demand/
 
-## Local Setup
+## macOS Laptop Local Setup
 
 ```
 conda create -n "text-summarization-llm-app" python=3.11.0
@@ -49,7 +51,7 @@ cd text-summarization-llm-app
 pip install -r requirements.txt
 ```
 
-## Run Local Setup
+## Run macOS Laptop Local Setup
 
 To run text summarization leveraging AWS Bedrock (Mistral-Large)
 
