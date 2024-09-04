@@ -3,11 +3,11 @@ Description=Text Summarization LLM Service
 After=network.target
  
 [Service]
-User=ubuntu
-Group=ubuntu
-WorkingDirectory=/home/ubuntu/text-summarization-llm-app_env
+User=root
+Group=root
+WorkingDirectory=/home/ubuntu/text-summarization-llm-app
 Environment="PATH=/home/ubuntu/text-summarization-llm-app_env/bin"
-ExecStart=/home/ubuntu/text-summarization-llm-app_env/bin/streamlit run /home/ubuntu/text-summarization-llm-app/text-summarization-llm-app.py --server.port 8080
+ExecStart=/home/ubuntu/text-summarization-llm-app_env/bin/streamlit run /home/ubuntu/text-summarization-llm-app/text-summarization-llm-app.py --server.port 8080 --server.headless true
  
 [Install]
 WantedBy=multi-user.target
