@@ -1,3 +1,4 @@
+[![Pylint](https://github.com/nethacker/text-summarization-llm-app/actions/workflows/pylint.yml/badge.svg)](https://github.com/nethacker/text-summarization-llm-app/actions/workflows/pylint.yml)
 # Text Summarization LLM APP
 * **License: (Apache 2.0), Copyright (C) 2024, Author Phil Chen (nethacker)**
   * This is a example application the author of this repository is not liable for damages or losses arising from your use or inability to use the code.
@@ -13,7 +14,7 @@ This repo is an example app showing text summarization leveraging <a href="https
 * AWS CLI user with Bedrock Access (Specifically Mistral-Large) see: <a href="https://docs.aws.amazon.com/bedrock/latest/userguide/model-access.html" target="_blank">Manage access to Amazon Bedrock foundation models</a>
 * Python 3.8 or higher
 * Anaconda or Miniconda installed 
-* AWS Default Region is set to us-east-1 you can change the region in the `pdf-query-rag-llm-app.py` file under `region_name='us-east-1'`
+* AWS Default Region is set to us-east-1 you can change the region in the `text_summarization_llm_app.py` file under `region_name='us-east-1'`
 
 ## Prerequisites for EC2 Ubuntu Linux Instance Setup
 * <a href="https://aws.amazon.com" target="_blank"> Amazon Web Services Account</a>
@@ -21,7 +22,7 @@ This repo is an example app showing text summarization leveraging <a href="https
 * EC2 Instance Role with AmazonBedrockFullAccess Policy Attached (note you can make this more secure by making a custom policy)
 * EC2 Instance Ubuntu 20.04 or higher
 * Virtualenv
-* AWS Default Region is set to us-east-1 you can change the region in the `pdf-query-rag-llm-app.py` file under `region_name='us-east-1'`
+* AWS Default Region is set to us-east-1 you can change the region in the `text_summarization_llm_app.py` file under `region_name='us-east-1'`
 
 **Required Python Packages**
 
@@ -56,7 +57,7 @@ pip install -r requirements.txt
 To run text summarization leveraging AWS Bedrock (Mistral-Large)
 
 ```
-streamlit run text-summarization-llm-app.py
+streamlit run text_summarization_llm_app.py
 ```
 
 You can reach the app at `http://localhost:8501/`
