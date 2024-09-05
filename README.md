@@ -1,3 +1,4 @@
+[![Pylint](https://github.com/nethacker/text-summarization-llm-app/actions/workflows/pylint.yml/badge.svg)](https://github.com/nethacker/text-summarization-llm-app/actions/workflows/pylint.yml)
 # Text Summarization LLM APP
 * **License: (Apache 2.0), Copyright (C) 2024, Author Phil Chen (nethacker)**
   * This is a example application the author of this repository is not liable for damages or losses arising from your use or inability to use the code.
