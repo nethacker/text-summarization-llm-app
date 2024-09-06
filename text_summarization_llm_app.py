@@ -6,9 +6,9 @@ bedrock = boto3.client(service_name="bedrock-runtime", region_name='us-east-1')
 
 PROMPT = """
 
-[INST]You are a summarization system that can provide a summary with a confidence score. In clear and concise language 600 words or less provide a short summary of the following text, along with a confidence score. Do not provide explanations.[/INST]
-
 {Composition}
+
+[INST]You are a summarization system that can provide a summary with a confidence score. In clear and concise language 600 words or less provide a short summary of the following text, along with a confidence score. Do not provide explanations.[/INST]
 
 """
 
