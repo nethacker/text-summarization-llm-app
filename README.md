@@ -20,6 +20,7 @@ This repo is an example app showing text summarization leveraging <a href="https
 * <a href="https://aws.amazon.com" target="_blank"> Amazon Web Services Account</a>
 * Enable Amazon Bedrock Access (Specifically Mistral-Large) see: <a href="https://docs.aws.amazon.com/bedrock/latest/userguide/model-access.html" target="_blank">Manage access to  Amazon Bedrock foundation models</a>
 * EC2 Instance Role with AmazonBedrockFullAccess Policy Attached (note you can make this more secure by making a custom policy)
+* Verified on Python 3.10, 3.11, 3.12
 * Verified on EC2 Instance Ubuntu 22.04 and Ubuntu 24.04
 * Virtualenv
 * AWS Default Region is set to us-east-1 you can change the region in the `text_summarization_llm_app.py` file under `region_name='us-east-1'`
