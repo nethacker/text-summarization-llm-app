@@ -10,8 +10,9 @@ This repo is an example app showing text summarization leveraging <a href="https
 ### Prerequisites for macOS local setup
 
 * <a href="https://aws.amazon.com" target="_blank"> Amazon Web Services Account</a>
+* Enable Amazon Bedrock Access (Specifically Mistral-Large) see: <a href="https://docs.aws.amazon.com/bedrock/latest/userguide/model-access.html"          target="_blank">Manage access to  Amazon Bedrock foundation models</a>
 * AWS CLI <a href="https://docs.aws.amazon.com/cli/latest/userguide/getting-started-quickstart.html" target="_blank">installed</a>
-* AWS CLI user with Bedrock Access (Specifically Mistral-Large) see: <a href="https://docs.aws.amazon.com/bedrock/latest/userguide/model-access.html" target="_blank">Manage access to Amazon Bedrock foundation models</a>
+* AWS CLI IAM user with Full Amazon Bedrock Access 
 * Verified on Python 3.10, 3.11, 3.12
 * Anaconda or Miniconda installed 
 * AWS Default Region is set to us-east-1 you can change the region in the `text_summarization_llm_app.py` file under `region_name='us-east-1'`
